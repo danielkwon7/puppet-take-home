@@ -165,7 +165,7 @@ class App extends React.Component {
         {this.navBar()}
         {this.tableHeader()}
         {this.table()}
-        <h1>Dear Puppet, the data of 10 rows is a replicate of what is shown on the GitHub sample. It is hardcoded on the server-side, and is fetched via an ajax request. Thanks! Yours, Daniel.</h1>
+        <h1>Dear Puppet, the data of 10 rows is a replicate of what is shown on the GitHub sample. It is hardcoded on the server-side, and is fetched via an ajax request. (NOTE: The commit messages were properly stored initially, but needing to initialize another folder, the history became shrunk to the last few for heroku deployment.) Thanks! Yours, Daniel.</h1>
       </div>
     )
   }
